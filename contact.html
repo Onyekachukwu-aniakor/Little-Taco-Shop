@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Aniakor onyekachukwu">
+        <meta name="Description" content="This gives details of our contact address">
+        <title>Little Taco shop contact</title>
+        <link rel=" icon" href="/css/img/taco2.png" type="image/x-icon">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+    <body>
+        <header class="header">
+           <h1 class="header_h1">Little Taco Shop</h1> 
+           <nav class="header_nav">
+            <ul class="header_ul">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                
+            </ul>
+           </nav>
+           
+        </header>
+        <section class="hero">
+            <figure>
+           <img src="/css/img/taco2.png" alt="Taco shop contact" width="400" height="240" title="Nice
+            tacos Tea">
+           <figcaption class="offscreen">
+            Little Taco Shop Tacos
+           </figcaption>
+
+        </figure>
+        </section>
+        <hr>
+        <main class="main">
+            <article class="main_article" contact>
+                <h3 class="contact_h3">Our Location</h3>
+                <p>
+                    <address>555 Taco Temptation Lane, Suit T, Kansas City 
+                        MO 55555-5555
+                    </address>
+                </p>
+            </article>
+            <article class="main_article" >
+            <h3>Our Contact Form</h3>
+            <br>
+            <form action="https://httpbin.org/post" method="post" class="contact_form"></form>
+            <fieldset class="contact_fieldset">
+                <legend class="offscreen">Send us a message</legend>
+                    <p class="contact_p"><label for="name" class="contact_label">Name</label>
+                    <input type="text" name="name" id="name" placeholder="your name" autocomplete="on" 
+                    required autofocus class="contact_input"></p>
+                    <p class="contact_p"><label for="email" class="contact_label">Email</label>
+                    <input type="email" name="email" id="email" placeholder="onyka@gmail.com" 
+                    autocomplete="on" required class="contact_input">
+                </p>
+                    <p class="contact_p"><label for="address" class="contact_label">Address</label>
+                    <input type="number" name="address" id="address" placeholder="9 aji street" 
+                    autocomplete="on" class="contact_input">
+                </p>
+                    <p class="contact_p"><label for="phone" class="contact_label">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="111-222-2345"
+                     autocomplete="on" pattern="[0-9]{3}-[0-9]{3}[0-9]{4}" class="contact_input">
+                    </p>
+                    <p><label for="decade" class="contact_label">Decade</label>
+                    <input type="number" name="decade" id="decade" min="1970" max="2024"
+                     autocomplete="on" step="20" value="1990" class="contact_input">
+                    </p>
+                    <p><label for="dateofbirth" class="contact_label">Date of Birth</label>
+                    <input type="number" name="dateofbirth" id="dateofbirth"
+                     autocomplete="on" placeholder="dd/mm/yyyy" class="contact_input">
+                    </p>
+
+                     <p>
+                        <label for="message" class="contact_label">Your message</label>
+                        <br>
+                        <textarea name="message" id="message" placeholder="type in here" rows="12" 
+                        cols="30" class="contact_textarea"></textarea></p>
+                     
+                </form>
+            </fieldset>
+            <button type="submit" class="contact_button">Submit</button> <button type="reset" class="contact_button">Reset</button>
+            </article>
+           
+        </main>
+    
+            <p><a href="#">Back To Top</a></p>
+            <hr>
+            <footer class="footer">
+            <p>
+                <span class="nowrap">Copyright&copy;</span>
+                <span class="nowrap">Little Taco Shop</span>
+            </p>
+            
+        </footer>
+
+
+    </body>
+
+</html>
